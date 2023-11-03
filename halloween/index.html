@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+    <title>HALLOWEEN</title>
+</head>
+<body>
+    <div>
+        <img src="images/hlwen.avif" alt="">
+        <h1>Bem <span>Vindos!</span></h1>
+        <h2>A brincadeira vai começar</h2>
+    </div>
+    <div id="container">
+        <p>Por favor selecione uma das opções abaixo</p>
+        <form id="options_play">
+            <i class="fa-solid fa-mask" style="color: #ff6a0098;"></i>
+            <input type="radio" name="fav_play" id="Doces">
+            <label for="Doces">Doces</label>
+
+            <i class="fa-solid fa-ghost" style="color: #ff6a0098;"></i>
+            <input type="radio" name="fav_play" id="Travessuras" >
+            <label for="Travessuras">Travessuras</label>
+            
+            <i class="fa-solid fa-book-skull" style="color: #ff6a0098;"></i>
+            <input type="radio" name="fav_play" id="Historias" >
+            <label for="Historias">Historias</label>
+        </form>
+        <p> <input type="button" id="btn_Enviar" value="Enviar" onclick="result()"></p>
+        <div id="res">
+            Carregando o Resultado ...
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
